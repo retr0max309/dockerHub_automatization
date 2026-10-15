@@ -30,3 +30,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/mi-web-plana:latest
             ${{ secrets.DOCKER_USERNAME }}/mi-web-plana:${{ github.sha }}
+            
